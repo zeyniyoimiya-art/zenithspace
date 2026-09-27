@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0b10" />
+  <title>ZenithSpace — Bitácora de Josué Salomón</title>
+  <meta name="description" content="Blog personal de ZenithSpace: investigación, apuntes y proyectos de Sistemas Informáticos. Por Calle Cucho Josué Salomón." />
+  <meta name="author" content="Calle Cucho Josué Salomón" />
+  <meta property="og:title" content="ZenithSpace — Bitácora de Josué Salomón" />
+  <meta property="og:description" content="Investigación, apuntes y proyectos de Sistemas Informáticos." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('zs-theme');
+        if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.dataset.theme = 'dark';
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#/">Zenith<span>Space</span></a>
+    <nav class="site-nav">
+      <a href="#/">Inicio</a>
+      <a href="#/sobre-mi">Sobre mí</a>
+      <a href="https://github.com/zeyniyoimiya-art" target="_blank" rel="noopener">GitHub</a>
+      <button id="themeBtn" class="theme-btn" aria-label="Cambiar tema" title="Modo claro / oscuro">◐</button>
+    </nav>
+  </header>
+
+  <main id="app" class="site-main"></main>
+
+  <footer class="site-footer">
+    <p>© 2026 <strong>Calle Cucho Josué Salomón</strong> · ZenithSpace</p>
+    <p class="footer-note">Hecho a mano con TypeScript, Vite y mucho café. Sin plantillas.</p>
+  </footer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
