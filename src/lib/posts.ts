@@ -10,7 +10,7 @@ export interface Post extends PostMeta {
   body: string;
 }
 
-const modules = import.meta.glob('../posts/*.md', {
+const modules = import.meta.glob('../content/posts/*.md', {
   query: '?raw',
   import: 'default',
   eager: true
@@ -69,3 +69,5 @@ export const posts: Post[] = Object.entries(modules)
 export function getPost(slug: string): Post | undefined {
   return posts.find((p) => p.slug === slug);
 }
+
+export const feed: Post[] = posts.filter((p) => p.slug !== 'sobre-mi');

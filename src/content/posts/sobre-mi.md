@@ -19,7 +19,7 @@ En internet también me encuentro como **Lynyue** 🌙
 
 - **Redes y telecomunicaciones** — entender cómo viajan los datos de un punto a otro (la primera entrada de este blog es sobre WiMAX, una tecnología inalámbrica que llegó a Bolivia y casi nadie recuerda).
 - **Desarrollo web** — este sitio está construido con TypeScript, Vite y mucho CSS escrito a mano. Sin plantillas.
-- **Aprender rompiendo cosas** — instalando, configurando y arreglando (a veces con ayuda de mi asistente IA favorito 🤖).
+- **Aprender rompiendo cosas** — instalando, configurando y arreglando… incluso lo que rompo yo mismo 😅.
 
 ## Sobre este blog
 
