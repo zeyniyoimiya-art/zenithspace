@@ -106,9 +106,3 @@
   color: var(--text);
 }
 
-.footer-note {
-  margin-top: 0.35rem;
-  font-family: var(--font-mono);
-  font-size: 0.76rem;
-  opacity: 0.75;
-}
