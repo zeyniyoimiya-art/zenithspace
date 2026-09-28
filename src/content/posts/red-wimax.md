@@ -1,6 +1,6 @@
 ---
 title: "Red WiMAX: la promesa inalámbrica que llegó a Bolivia"
-date: 2026-09-27
+date: 2026-09-29
 tags: [Telecomunicaciones, Redes, Bolivia]
 description: Investigación completa sobre WiMAX: qué es, su historia y personajes, la cobertura mundial y su llegada a Bolivia con Entel, VIVA y COTAS.
 ---
